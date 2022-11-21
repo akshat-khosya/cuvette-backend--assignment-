@@ -8,9 +8,9 @@ class Config {
             port: process.env.PORT,
             dbUri: process.env.DB_URI,
             saltWorkFactor: 10,
-            accessTokenTtl: "15m",
-            refreshTokenTtl: "30d",
+            jwtTokenTime:"30d",
             privateKey: process.env.PRIVATE_KEY,
+            url: process.env.URL,
         };
 
         
